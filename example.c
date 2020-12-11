@@ -43,8 +43,8 @@
       for( v = 0; v < vmax; v++ )
       {
     
-		if( vmax % 127 == 0 ) srand( clock() + rand() + v );
-		  
+        if( vmax % 127 == 0 ) srand( clock() + rand() + v );
+          
         bigint P[l], Q[l];
         bigint R1[2*l], R2[2*l];
                 
@@ -147,7 +147,7 @@
     
       t1 = clock();
     
-      const bigintexpo k = 14;
+      const bigintexpo k = 10;
       const bigintlength l = 1 << k; /* Number of digits */
       
       long int v = 0, vmax = 100;

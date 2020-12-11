@@ -713,8 +713,8 @@
     /* Pointer to heap */
     //bigint *heap = malloc( length * sizeof(bigint) );
     bigint heap[length];
-	
-	assert( heap != NULL );
+    
+    assert( heap != NULL );
     bigint *aux1, *aux2;
     aux1 = heap;
     aux2 = heap + length/2;
@@ -724,8 +724,7 @@
     bigint *albl = u1;
     
     /* Memory for some of the carries
-    due to performance issues
-    */
+    due to performance issues */
     bigint overflow = (bigint)0;
     
     
