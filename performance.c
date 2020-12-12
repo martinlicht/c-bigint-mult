@@ -2,7 +2,7 @@
 /****************************************************************************
 
     Compile with: 
-    gcc example.c -std=c99 -pedantic -W -Wall
+    gcc example.c -std=c99 -pedantic -W -Wall -Wformat -Wextra -o performance.out 
 
 ****************************************************************************/  
 

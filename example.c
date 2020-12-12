@@ -2,8 +2,8 @@
 /****************************************************************************
 
     Compile with: 
-    gcc example.c -std=c99 -pedantic -W -Wall
-
+	gcc -std=c99 -pedantic -W -Wall -Wformat -Wextra example.c -o example.out
+	
 ****************************************************************************/  
 
   
